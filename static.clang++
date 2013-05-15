@@ -1,0 +1,32 @@
+clang: warning: treating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated
+clang: warning: treating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated
+clang: warning: treating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated
+clang: warning: treating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated
+clang: warning: treating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated
+clang: warning: treating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated
+clang: warning: treating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated
+clang: warning: treating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated
+clang: warning: treating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated
+clang: warning: treating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated
+clang: warning: treating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated
+clang: warning: treating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated
+clang: warning: treating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated
+clang: warning: treating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated
+clang: warning: treating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated
+clang: warning: treating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated
+clang: warning: treating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated
+clang: warning: treating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated
+clang: warning: treating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated
+clang: warning: treating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated
+In file included from include/dbus-c++/dbus.h:33:
+In file included from include/dbus-c++/server.h:34:
+include/dbus-c++/dispatcher.h:255:3: error: no matching function for call to '_init_threading'
+                _init_threading(
+                ^~~~~~~~~~~~~~~
+include/dbus-c++/dispatcher.h:245:13: note: candidate function not viable: no known conversion from 'void (DBus::Mutex *)' to 'MutexFreeFn' (aka 'bool (*)(DBus::Mutex *)') for 2nd argument
+void DXXAPI _init_threading(
+            ^
+include/dbus-c++/dispatcher.h:243:13: note: candidate function not viable: requires 0 arguments, but 10 were provided
+void DXXAPI _init_threading();
+            ^
+1 error generated.
