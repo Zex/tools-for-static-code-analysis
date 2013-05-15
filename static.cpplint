@@ -1,0 +1,186 @@
+src/connection.cpp:42:  Do not use namespace using-directives.  Use using-declarations instead.  [build/namespaces] [5]
+src/connection.cpp:91:  Missing username in TODO; it should look like "// TODO(my_username): Stuff."  [readability/todo] [2]
+src/connection.cpp:401:  Use int16/int64/etc, rather than the C type long  [runtime/int] [4]
+src/connection.cpp:405:  Use int16/int64/etc, rather than the C type long  [runtime/int] [4]
+src/connection.cpp:428:  Use int16/int64/etc, rather than the C type long  [runtime/int] [4]
+Done processing src/connection.cpp
+Done processing src/debug.cpp
+src/dispatcher.cpp:38:  Do not use namespace using-directives.  Use using-declarations instead.  [build/namespaces] [5]
+src/dispatcher.cpp:43:  Using C-style cast.  Use reinterpret_cast<DBusTimeout *>(...) instead  [readability/casting] [4]
+src/dispatcher.cpp:48:  Using C-style cast.  Use reinterpret_cast<DBusTimeout *>(...) instead  [readability/casting] [4]
+src/dispatcher.cpp:53:  Using C-style cast.  Use reinterpret_cast<DBusTimeout *>(...) instead  [readability/casting] [4]
+src/dispatcher.cpp:58:  Using C-style cast.  Use reinterpret_cast<DBusTimeout *>(...) instead  [readability/casting] [4]
+src/dispatcher.cpp:67:  Using C-style cast.  Use reinterpret_cast<DBusWatch *>(...) instead  [readability/casting] [4]
+src/dispatcher.cpp:73:  Using C-style cast.  Use reinterpret_cast<DBusWatch*>(...) instead  [readability/casting] [4]
+src/dispatcher.cpp:75:  Using C-style cast.  Use reinterpret_cast<DBusWatch*>(...) instead  [readability/casting] [4]
+src/dispatcher.cpp:81:  Using C-style cast.  Use reinterpret_cast<DBusWatch *>(...) instead  [readability/casting] [4]
+src/dispatcher.cpp:86:  Using C-style cast.  Use reinterpret_cast<DBusWatch *>(...) instead  [readability/casting] [4]
+src/dispatcher.cpp:91:  Using C-style cast.  Use reinterpret_cast<DBusWatch *>(...) instead  [readability/casting] [4]
+Done processing src/dispatcher.cpp
+src/ecore-integration.cpp:32:  Do not use namespace using-directives.  Use using-declarations instead.  [build/namespaces] [5]
+src/ecore-integration.cpp:68:  Using C-style cast.  Use static_cast<double>(...) instead  [readability/casting] [4]
+src/ecore-integration.cpp:98:  Missing username in TODO; it should look like "// TODO(my_username): Stuff."  [readability/todo] [2]
+Done processing src/ecore-integration.cpp
+src/error.cpp:36:  Do not use namespace using-directives.  Use using-declarations instead.  [build/namespaces] [5]
+Done processing src/error.cpp
+src/eventloop.cpp:36:  Do not use namespace using-directives.  Use using-declarations instead.  [build/namespaces] [5]
+src/eventloop.cpp:139:  Do not use variable-length arrays.  Use an appropriately named ('k' followed by CamelCase) compile-time constant for the size.  [runtime/arrays] [1]
+Done processing src/eventloop.cpp
+src/eventloop-integration.cpp:35:  Do not use namespace using-directives.  Use using-declarations instead.  [build/namespaces] [5]
+src/eventloop-integration.cpp:104:  Using C-style cast.  Use reinterpret_cast<Timeout *>(...) instead  [readability/casting] [4]
+src/eventloop-integration.cpp:124:  Using C-style cast.  Use reinterpret_cast<Watch *>(...) instead  [readability/casting] [4]
+src/eventloop-integration.cpp:150:  Using C-style cast.  Use reinterpret_cast<Watch *>(...) instead  [readability/casting] [4]
+Done processing src/eventloop-integration.cpp
+src/glib-integration.cpp:31:  Do not use namespace using-directives.  Use using-declarations instead.  [build/namespaces] [5]
+src/glib-integration.cpp:100:  Using C-style cast.  Use reinterpret_cast<BusSource *>(...) instead  [readability/casting] [4]
+src/glib-integration.cpp:143:  Using C-style cast.  Use reinterpret_cast<BusSource *>(...) instead  [readability/casting] [4]
+src/glib-integration.cpp:180:  Using C-style cast.  Use reinterpret_cast<BusSource *>(...) instead  [readability/casting] [4]
+src/glib-integration.cpp:180:  Are you taking an address of a cast?  This is dangerous: could be a temp var.  Take the address before doing the cast, rather than after  [runtime/casting] [4]
+src/glib-integration.cpp:193:  Using C-style cast.  Use reinterpret_cast<BusSource *>(...) instead  [readability/casting] [4]
+src/glib-integration.cpp:193:  Are you taking an address of a cast?  This is dangerous: could be a temp var.  Take the address before doing the cast, rather than after  [runtime/casting] [4]
+src/glib-integration.cpp:213:  Using C-style cast.  Use reinterpret_cast<DispatcherSource*>(...) instead  [readability/casting] [4]
+src/glib-integration.cpp:230:  Using C-style cast.  Use reinterpret_cast<DispatcherSource*>(...) instead  [readability/casting] [4]
+src/glib-integration.cpp:271:  Using C-style cast.  Use reinterpret_cast<GSourceFuncs *>(...) instead  [readability/casting] [4]
+src/glib-integration.cpp:274:  Using C-style cast.  Use reinterpret_cast<DispatcherSource*>(...) instead  [readability/casting] [4]
+Done processing src/glib-integration.cpp
+src/interface.cpp:33:  Do not use namespace using-directives.  Use using-declarations instead.  [build/namespaces] [5]
+Done processing src/interface.cpp
+src/introspection.cpp:36:  Do not use namespace using-directives.  Use using-declarations instead.  [build/namespaces] [5]
+Done processing src/introspection.cpp
+src/message.cpp:36:  Do not use namespace using-directives.  Use using-declarations instead.  [build/namespaces] [5]
+src/message.cpp:43:  Using C-style cast.  Use reinterpret_cast<DBusMessageIter *>(...) instead  [readability/casting] [4]
+src/message.cpp:53:  Using C-style cast.  Use reinterpret_cast<DBusMessageIter *>(...) instead  [readability/casting] [4]
+src/message.cpp:58:  Using C-style cast.  Use reinterpret_cast<DBusMessageIter *>(...) instead  [readability/casting] [4]
+src/message.cpp:62:  Using C-style cast.  Use static_cast<int>(...) instead  [readability/casting] [4]
+src/message.cpp:71:  Using C-style cast.  Use reinterpret_cast<DBusMessageIter *>(...) instead  [readability/casting] [4]
+src/message.cpp:79:  Using C-style cast.  Use reinterpret_cast<DBusMessageIter *>(...) instead  [readability/casting] [4]
+src/message.cpp:104:  Using C-style cast.  Use static_cast<bool>(...) instead  [readability/casting] [4]
+src/message.cpp:107:  Use int16/int64/etc, rather than the C type short  [runtime/int] [4]
+src/message.cpp:112:  Use int16/int64/etc, rather than the C type short  [runtime/int] [4]
+src/message.cpp:114:  Use int16/int64/etc, rather than the C type short  [runtime/int] [4]
+src/message.cpp:119:  Use int16/int64/etc, rather than the C type short  [runtime/int] [4]
+src/message.cpp:124:  Use int16/int64/etc, rather than the C type short  [runtime/int] [4]
+src/message.cpp:126:  Use int16/int64/etc, rather than the C type short  [runtime/int] [4]
+src/message.cpp:155:  Use int16/int64/etc, rather than the C type long  [runtime/int] [4]
+src/message.cpp:157:  Use int16/int64/etc, rather than the C type long  [runtime/int] [4]
+src/message.cpp:162:  Use int16/int64/etc, rather than the C type long  [runtime/int] [4]
+src/message.cpp:167:  Use int16/int64/etc, rather than the C type long  [runtime/int] [4]
+src/message.cpp:169:  Use int16/int64/etc, rather than the C type long  [runtime/int] [4]
+src/message.cpp:174:  Use int16/int64/etc, rather than the C type long  [runtime/int] [4]
+src/message.cpp:230:  Using C-style cast.  Use reinterpret_cast<DBusMessageIter *>(...) instead  [readability/casting] [4]
+src/message.cpp:236:  Using C-style cast.  Use reinterpret_cast<DBusMessageIter *>(...) instead  [readability/casting] [4]
+src/message.cpp:241:  Using C-style cast.  Use reinterpret_cast<DBusMessageIter *>(...) instead  [readability/casting] [4]
+src/message.cpp:246:  Using C-style cast.  Use reinterpret_cast<DBusMessageIter *>(...) instead  [readability/casting] [4]
+src/message.cpp:252:  Using C-style cast.  Use reinterpret_cast<DBusMessageIter *>(...) instead  [readability/casting] [4]
+src/message.cpp:258:  Using C-style cast.  Use reinterpret_cast<DBusMessageIter *>(...) instead  [readability/casting] [4]
+src/message.cpp:263:  Using C-style cast.  Use reinterpret_cast<DBusMessageIter *>(...) instead  [readability/casting] [4]
+src/message.cpp:270:  Using C-style cast.  Use reinterpret_cast<DBusMessageIter *>(...) instead  [readability/casting] [4]
+src/message.cpp:279:  Using C-style cast.  Use reinterpret_cast<DBusMessageIter *>(...) instead  [readability/casting] [4]
+src/message.cpp:288:  Using C-style cast.  Use reinterpret_cast<DBusMessageIter *>(...) instead  [readability/casting] [4]
+src/message.cpp:297:  Using C-style cast.  Use reinterpret_cast<DBusMessageIter *>(...) instead  [readability/casting] [4]
+src/message.cpp:304:  Using C-style cast.  Use reinterpret_cast<DBusMessageIter *>(...) instead  [readability/casting] [4]
+src/message.cpp:351:  Using C-style cast.  Use reinterpret_cast<DBusMessageIter *>(...) instead  [readability/casting] [4]
+src/message.cpp:354:  Using C-style cast.  Use reinterpret_cast<DBusMessageIter *>(...) instead  [readability/casting] [4]
+src/message.cpp:475:  Using C-style cast.  Use reinterpret_cast<DBusMessageIter *>(...) instead  [readability/casting] [4]
+src/message.cpp:482:  Using C-style cast.  Use reinterpret_cast<DBusMessageIter *>(...) instead  [readability/casting] [4]
+Done processing src/message.cpp
+src/object.cpp:40:  Do not use namespace using-directives.  Use using-declarations instead.  [build/namespaces] [5]
+src/object.cpp:66:  Missing username in TODO; it should look like "// TODO(my_username): Stuff."  [readability/todo] [2]
+Done processing src/object.cpp
+src/pendingcall.cpp:36:  Do not use namespace using-directives.  Use using-declarations instead.  [build/namespaces] [5]
+Done processing src/pendingcall.cpp
+src/property.cpp:33:  Do not use namespace using-directives.  Use using-declarations instead.  [build/namespaces] [5]
+src/property.cpp:55:  Using C-style cast.  Use reinterpret_cast<InterfaceAdaptor *>(...) instead  [readability/casting] [4]
+src/property.cpp:85:  Using C-style cast.  Use reinterpret_cast<InterfaceAdaptor *>(...) instead  [readability/casting] [4]
+Done processing src/property.cpp
+src/server.cpp:36:  Do not use namespace using-directives.  Use using-declarations instead.  [build/namespaces] [5]
+Done processing src/server.cpp
+src/types.cpp:37:  Do not use namespace using-directives.  Use using-declarations instead.  [build/namespaces] [5]
+Done processing src/types.cpp
+include/dbus-c++/api.h:25:  #ifndef header guard has wrong style, please use: LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_API_H_  [build/header_guard] [5]
+include/dbus-c++/api.h:38:  #endif line should be "#endif  // LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_API_H_"  [build/header_guard] [5]
+Done processing include/dbus-c++/api.h
+include/dbus-c++/connection.h:25:  #ifndef header guard has wrong style, please use: LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_CONNECTION_H_  [build/header_guard] [5]
+include/dbus-c++/connection.h:463:  #endif line should be "#endif  // LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_CONNECTION_H_"  [build/header_guard] [5]
+include/dbus-c++/connection.h:413:  Use int16/int64/etc, rather than the C type long  [runtime/int] [4]
+include/dbus-c++/connection.h:446:  Use int16/int64/etc, rather than the C type long  [runtime/int] [4]
+Done processing include/dbus-c++/connection.h
+include/dbus-c++/dbus.h:25:  #ifndef header guard has wrong style, please use: LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_DBUS_H_  [build/header_guard] [5]
+include/dbus-c++/dbus.h:45:  #endif line should be "#endif  // LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_DBUS_H_"  [build/header_guard] [5]
+Done processing include/dbus-c++/dbus.h
+include/dbus-c++/debug.h:25:  #ifndef header guard has wrong style, please use: LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_DEBUG_H_  [build/header_guard] [5]
+include/dbus-c++/debug.h:38:  #endif line should be "#endif  // LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_DEBUG_H_"  [build/header_guard] [5]
+Done processing include/dbus-c++/debug.h
+include/dbus-c++/dispatcher.h:25:  #ifndef header guard has wrong style, please use: LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_DISPATCHER_H_  [build/header_guard] [5]
+include/dbus-c++/dispatcher.h:314:  #endif line should be "#endif  // LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_DISPATCHER_H_"  [build/header_guard] [5]
+include/dbus-c++/dispatcher.h:168:  All parameters should be named in a function  [readability/function] [3]
+include/dbus-c++/dispatcher.h:172:  All parameters should be named in a function  [readability/function] [3]
+include/dbus-c++/dispatcher.h:210:  All parameters should be named in a function  [readability/function] [3]
+Done processing include/dbus-c++/dispatcher.h
+include/dbus-c++/ecore-integration.h:25:  #ifndef header guard has wrong style, please use: LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_ECORE_INTEGRATION_H_  [build/header_guard] [5]
+include/dbus-c++/ecore-integration.h:114:  #endif line should be "#endif  // LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_ECORE_INTEGRATION_H_"  [build/header_guard] [5]
+Done processing include/dbus-c++/ecore-integration.h
+include/dbus-c++/error.h:25:  #ifndef header guard has wrong style, please use: LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_ERROR_H_  [build/header_guard] [5]
+include/dbus-c++/error.h:285:  #endif line should be "#endif  // LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_ERROR_H_"  [build/header_guard] [5]
+Done processing include/dbus-c++/error.h
+include/dbus-c++/eventloop.h:25:  #ifndef header guard has wrong style, please use: LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_EVENTLOOP_H_  [build/header_guard] [5]
+include/dbus-c++/eventloop.h:166:  #endif line should be "#endif  // LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_EVENTLOOP_H_"  [build/header_guard] [5]
+Done processing include/dbus-c++/eventloop.h
+include/dbus-c++/eventloop-integration.h:25:  #ifndef header guard has wrong style, please use: LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_EVENTLOOP_INTEGRATION_H_  [build/header_guard] [5]
+include/dbus-c++/eventloop-integration.h:94:  #endif line should be "#endif  // LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_EVENTLOOP_INTEGRATION_H_"  [build/header_guard] [5]
+include/dbus-c++/eventloop-integration.h:77:  All parameters should be named in a function  [readability/function] [3]
+include/dbus-c++/eventloop-integration.h:81:  All parameters should be named in a function  [readability/function] [3]
+Done processing include/dbus-c++/eventloop-integration.h
+include/dbus-c++/glib-integration.h:25:  #ifndef header guard has wrong style, please use: LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_GLIB_INTEGRATION_H_  [build/header_guard] [5]
+include/dbus-c++/glib-integration.h:123:  #endif line should be "#endif  // LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_GLIB_INTEGRATION_H_"  [build/header_guard] [5]
+include/dbus-c++/glib-integration.h:96:  All parameters should be named in a function  [readability/function] [3]
+include/dbus-c++/glib-integration.h:104:  All parameters should be named in a function  [readability/function] [3]
+include/dbus-c++/glib-integration.h:108:  All parameters should be named in a function  [readability/function] [3]
+Done processing include/dbus-c++/glib-integration.h
+include/dbus-c++/interface.h:25:  #ifndef header guard has wrong style, please use: LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_INTERFACE_H_  [build/header_guard] [5]
+include/dbus-c++/interface.h:195:  #endif line should be "#endif  // LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_INTERFACE_H_"  [build/header_guard] [5]
+Done processing include/dbus-c++/interface.h
+include/dbus-c++/introspection.h:25:  #ifndef header guard has wrong style, please use: LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_INTROSPECTION_H_  [build/header_guard] [5]
+include/dbus-c++/introspection.h:86:  #endif line should be "#endif  // LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_INTROSPECTION_H_"  [build/header_guard] [5]
+Done processing include/dbus-c++/introspection.h
+include/dbus-c++/message.h:25:  #ifndef header guard has wrong style, please use: LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_MESSAGE_H_  [build/header_guard] [5]
+include/dbus-c++/message.h:308:  #endif line should be "#endif  // LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_MESSAGE_H_"  [build/header_guard] [5]
+include/dbus-c++/message.h:57:  All parameters should be named in a function  [readability/function] [3]
+include/dbus-c++/message.h:67:  Use int16/int64/etc, rather than the C type short  [runtime/int] [4]
+include/dbus-c++/message.h:69:  Use int16/int64/etc, rather than the C type short  [runtime/int] [4]
+include/dbus-c++/message.h:71:  Use int16/int64/etc, rather than the C type short  [runtime/int] [4]
+include/dbus-c++/message.h:73:  Use int16/int64/etc, rather than the C type short  [runtime/int] [4]
+include/dbus-c++/message.h:83:  Use int16/int64/etc, rather than the C type long  [runtime/int] [4]
+include/dbus-c++/message.h:85:  Use int16/int64/etc, rather than the C type long  [runtime/int] [4]
+include/dbus-c++/message.h:87:  Use int16/int64/etc, rather than the C type long  [runtime/int] [4]
+include/dbus-c++/message.h:89:  Use int16/int64/etc, rather than the C type long  [runtime/int] [4]
+include/dbus-c++/message.h:150:  Using sizeof(type).  Use sizeof(varname) instead if possible  [runtime/sizeof] [1]
+include/dbus-c++/message.h:150:  Using sizeof(type).  Use sizeof(varname) instead if possible  [runtime/sizeof] [1]
+include/dbus-c++/message.h:179:  All parameters should be named in a function  [readability/function] [3]
+Done processing include/dbus-c++/message.h
+include/dbus-c++/object.h:25:  #ifndef header guard has wrong style, please use: LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_OBJECT_H_  [build/header_guard] [5]
+include/dbus-c++/object.h:224:  #endif line should be "#endif  // LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_OBJECT_H_"  [build/header_guard] [5]
+Done processing include/dbus-c++/object.h
+include/dbus-c++/pendingcall.h:25:  #ifndef header guard has wrong style, please use: LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_PENDINGCALL_H_  [build/header_guard] [5]
+include/dbus-c++/pendingcall.h:132:  #endif line should be "#endif  // LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_PENDINGCALL_H_"  [build/header_guard] [5]
+include/dbus-c++/pendingcall.h:42:  All parameters should be named in a function  [readability/function] [3]
+Done processing include/dbus-c++/pendingcall.h
+include/dbus-c++/property.h:25:  #ifndef header guard has wrong style, please use: LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_PROPERTY_H_  [build/header_guard] [5]
+include/dbus-c++/property.h:101:  #endif line should be "#endif  // LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_PROPERTY_H_"  [build/header_guard] [5]
+Done processing include/dbus-c++/property.h
+include/dbus-c++/refptr_impl.h:25:  #ifndef header guard has wrong style, please use: LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_REFPTR_IMPL_H_  [build/header_guard] [5]
+include/dbus-c++/refptr_impl.h:46:  #endif line should be "#endif  // LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_REFPTR_IMPL_H_"  [build/header_guard] [5]
+Done processing include/dbus-c++/refptr_impl.h
+include/dbus-c++/server.h:25:  #ifndef header guard has wrong style, please use: LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_SERVER_H_  [build/header_guard] [5]
+include/dbus-c++/server.h:74:  #endif line should be "#endif  // LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_SERVER_H_"  [build/header_guard] [5]
+include/dbus-c++/server.h:48:  All parameters should be named in a function  [readability/function] [3]
+Done processing include/dbus-c++/server.h
+include/dbus-c++/types.h:25:  #ifndef header guard has wrong style, please use: LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_TYPES_H_  [build/header_guard] [5]
+include/dbus-c++/types.h:499:  #endif line should be "#endif  // LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_TYPES_H_"  [build/header_guard] [5]
+include/dbus-c++/types.h:152:  You don't need a ; after a }  [readability/braces] [4]
+include/dbus-c++/types.h:156:  You don't need a ; after a }  [readability/braces] [4]
+Done processing include/dbus-c++/types.h
+include/dbus-c++/util.h:25:  #ifndef header guard has wrong style, please use: LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_UTIL_H_  [build/header_guard] [5]
+include/dbus-c++/util.h:273:  #endif line should be "#endif  // LAB_DBUS_CPLUSPLUS_MAINLINE_INCLUDE_DBUS_C++_UTIL_H_"  [build/header_guard] [5]
+Done processing include/dbus-c++/util.h
+Total errors found: 149
